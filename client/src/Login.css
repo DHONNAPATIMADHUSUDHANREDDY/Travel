@@ -1,0 +1,45 @@
+
+.Signs{
+     
+    background:linear-gradient(to right,#64b5f6, #1976d2);
+    color:#fff;
+}
+.signup{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    text-align: center;
+    margin-left:10%;
+    margin-right: 10%;
+
+
+}
+.signupcon{
+margin-bottom: 15px;
+}
+/*
+.signin{
+margin-left:15%;
+margin-right:15%;
+
+}
+*/
+.Signbac{
+    background-image: url('./images/sig.jpg');
+    background-size: cover;
+     background-position: center;
+  
+    
+}
+.total{
+    margin-bottom: 20%;
+    margin-left: 30%;
+    border-radius: 10%;
+   
+    background:linear-gradient(to right,#64b5f6, #1976d2);
+    color:#fff;
+max-width: 30%;
+min-width:40%;
+}

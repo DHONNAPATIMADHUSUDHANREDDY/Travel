@@ -1,0 +1,108 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+}
+.Tr1{
+    display:grid;
+    height:100vh;
+    grid-template-rows: auto 1.5fr 2fr;
+}
+.tr3{
+  background-color: #FFFFDD;
+  display:grid;
+  grid-template-columns: 2fr 1fr;
+background-image: url('./images/water.jpg');
+background-size: cover;
+ background-position: center;
+}
+.tr2{
+    
+    background-image: url('./images/img2.jpg');
+   background-size: cover;
+   background-position: center;
+   position:relative;
+
+   
+   
+}
+
+.trquote{
+    text-align: center;
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the RGBA values and alpha (0.0 to 1.0) for the background color */
+    padding: 10px; 
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.tr2{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+   gap:10%;
+   padding:2%;
+   align-items: center;
+}
+
+/*
+.ptr{
+    min-height: 80%;
+    min-width: 50%;
+}
+*/
+.narayan{
+    margin-right:10%;
+    margin-top: 10%;
+  
+}
+.tsty{
+    display:flex;
+    font-family: 'Dancing+Scrip',cursive;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+    color:brown;
+}
+.travimg{
+/*    
+max-width: 100%;
+height:auto;
+display:flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+*/
+width: 100%;
+
+
+}
+/*
+.travimg{
+    
+    margin-bottom: 7%;
+}
+.travdetcon{
+margin-top:12%;
+
+}
+*/
+.navb{
+    margin-bottom:10%;
+}
+
+.travdetcon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+.travimg{
+    max-width:200px;
+    margin:5%;
+    
+}
