@@ -5,7 +5,7 @@ import React from "react";
 import Home from "./Home";
 import Travel from "./Travel";
 import Traveldetails from "./Traveldetails";
-import Travdet from "./Travdet";
+//import Travdet from "./Travdet";
 import Signin from "./Signin";
 import Signup from "./Signup";
 import Navbar from "./Navbar";
@@ -26,8 +26,9 @@ function Travrout() {
                     <Route path="/Travel" element={<Travel />}></Route>
                     <Route path="/Traveldetails" element={<Traveldetails />}></Route>
                     <Route path="/Contact" element={<Contact />}></Route>
+                    {/* 
                     <Route path="/Travdet" element={<Travdet />}></Route>
-                    
+                    */}
                     
                 </Routes>
             </Router>

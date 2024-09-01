@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import axios from "axios";
 
 //import Home from "./Home";
-import Travdet from "./Travdet";
+
 import Signup from "./Signup";
 import Signin from "./Signin";
 import Contact from "./Contact";
